@@ -1,0 +1,21 @@
+.desc-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+
+  justify-self: flex-end;
+
+  height: 100%;
+  width: 85%;
+
+  border-radius: 1rem;
+  padding: 1rem;
+
+  box-sizing: border-box;
+}
+
+.desc__p {
+  color: var(--blue-dark);
+  font-style: italic;
+}
