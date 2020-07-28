@@ -1,0 +1,10 @@
+.resume-heading {
+  width: inherit;
+}
+
+.resume-heading__h1 {
+  width: 80%;
+  border-bottom: 1px solid var(--blue-dark);
+
+  padding-bottom: 1rem;
+}

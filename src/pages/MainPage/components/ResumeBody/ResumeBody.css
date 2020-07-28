@@ -1,0 +1,11 @@
+.resume-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  height: 80%;
+  width: 800px;
+
+  border: 10px solid var(--blue-dark);
+}

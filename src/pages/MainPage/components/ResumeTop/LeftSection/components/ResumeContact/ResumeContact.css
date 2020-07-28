@@ -1,0 +1,8 @@
+.contacts-container {
+  display: block;
+
+  width: var(--contact-w);
+
+  padding-bottom: 2rem;
+  box-sizing: border-box;
+}
