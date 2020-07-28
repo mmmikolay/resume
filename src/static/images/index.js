@@ -1,0 +1,1 @@
+export {default as resume_picture} from './resume_picture.png'; 

@@ -1,4 +1,5 @@
 import React from 'react';
+import {resume_picture} from '../../../../../static/images';
 
 // Styles
 import './ResumePicture.css';
@@ -14,7 +15,8 @@ const ResumePicture = ({
     >
       <img
         className="img img--resume"
-        src={img || 'https://picsum.photos/180/300'}
+        // src={img || 'https://picsum.photos/180/300'}
+        src={resume_picture}
         alt={alt}
       />
     </div>
