@@ -1,0 +1,19 @@
+.resume-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: var(--total-w);
+
+  margin: 4rem 0;
+  box-sizing: border-box;
+
+  border: 10px solid var(--blue-dark);
+}
+
+@media only screen and (max-width: 375px) {
+  .resume-body {
+    margin: 0;
+  }
+}

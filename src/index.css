@@ -1,0 +1,117 @@
+:root {
+  --blue-dark: #3f4549;
+  --green-dark: #5cbfb4;
+  --dark-beige: #c6a987;
+  --green-mid-1: #8ad7ce;
+  --blue-2: #7f8d96;
+  --beije-mid-1: #ead1b3;
+  --blue-mid: #d5e0e2;
+  --green-mid: #d6e5dc;
+  --beije-mid: #fbeae0;
+  --blue-lightest: #f3f9fa;
+  --green-lightest: #f0f9f4;
+  --beije-lightest: #fbf5ef;
+  --bg: #fffaf6;
+
+  --white: #ffffff;
+  --black: #000000;
+
+  --total-w: 800px;
+
+  --left-w: calc(var(--total-w) * 0.675);
+
+  --top-h: 300px;
+
+  --pic-h: calc(var(--total-w) * 0.375);
+  --pic-w: calc(var(--top-h) * 0.737);
+
+  --contact-w: calc(var(--total-w) / 2);
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  background-color: var(--bg);
+}
+
+html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  font-family: BrandonGrotesque;
+  /* Text colour */
+  color: var(--blue-dark);
+}
+
+.App {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+/* Standard heading stylings. */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 2em;
+  font-weight: bolder;
+}
+
+/* Common list stylings */
+li {
+  list-style: none;
+}
+
+/* Common container elements. */
+.page-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 100%;
+  width: 100%;
+
+  background-color: var(--bg);
+}
+
+.img-container {
+  display: block;
+}
+
+.img {
+  display: block;
+
+  height: 100%;
+  width: 100%;
+
+  object-fit: contain;
+}
+
+/* Effects */
+
+.shadowy {
+  box-shadow: 0 0.5px 1.5px 0 var(--blue-mid);
+}
+
+@media only screen and (min-width: 376px) and (max-width: 768px) {
+  :root {
+    --total-w: 540px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  :root {
+    --total-w: 375px;
+  }
+}
