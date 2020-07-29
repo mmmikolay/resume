@@ -16,15 +16,16 @@
   --white: #ffffff;
   --black: #000000;
 
-  --react: #00d8ff;
+  --total-w: 800px;
+
+  --left-w: calc(var(--total-w) * 0.675);
 
   --top-h: 300px;
 
-  --contact-w: 400px;
-}
+  --pic-h: calc(var(--total-w) * 0.375);
+  --pic-w: calc(var(--top-h) * 0.737);
 
-#root {
-  height: 100%;
+  --contact-w: calc(var(--total-w) / 2);
 }
 
 body {
@@ -44,7 +45,7 @@ html {
 }
 
 .App {
-  display: flex;
+  display: block;
   height: 100%;
   width: 100%;
 }
@@ -101,4 +102,16 @@ li {
 
 .shadowy {
   box-shadow: 0 0.5px 1.5px 0 var(--blue-mid);
+}
+
+@media only screen and (min-width: 376px) and (max-width: 768px) {
+  :root {
+    --total-w: 540px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  :root {
+    --total-w: 375px;
+  }
 }

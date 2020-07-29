@@ -1,4 +1,10 @@
 .img-container--resume {
-  height: var(--top-h);
-  width: 221px;
+  height: var(--pic-h);
+  width: var(--pic-w);
+}
+
+@media only screen and (max-width: 375px) {
+  .img-container--resume {
+    display: none;
+  }
 }

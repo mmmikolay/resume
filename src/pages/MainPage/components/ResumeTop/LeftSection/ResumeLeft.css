@@ -5,11 +5,17 @@
   justify-content: flex-start;
 
   height: var(--top-h);
-  width: 540px;
+  width: var(--left-w);
 
   padding-left: 2rem;
   box-sizing: border-box;
 }
 .link--contact {
   color: var(--blue-dark);
+}
+
+@media only screen and (max-width: 375px) {
+  .resume-left-container {
+    width: 100%;
+  }
 }
