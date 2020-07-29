@@ -1,10 +1,9 @@
 .section-list {
-  width: 75%;
+  width: 80%;
   display: block;
 }
 .section-list__dl {
 }
 
 .section-list__li {
-  list-style: none;
 }
