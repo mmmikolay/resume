@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/github.io/resume/static/css/main.26952906.chunk.css",
+    "main.js": "/github.io/resume/static/js/main.217b1966.chunk.js",
+    "main.js.map": "/github.io/resume/static/js/main.217b1966.chunk.js.map",
+    "runtime-main.js": "/github.io/resume/static/js/runtime-main.3fc8dab3.js",
+    "runtime-main.js.map": "/github.io/resume/static/js/runtime-main.3fc8dab3.js.map",
+    "static/js/2.9344f2d8.chunk.js": "/github.io/resume/static/js/2.9344f2d8.chunk.js",
+    "static/js/2.9344f2d8.chunk.js.map": "/github.io/resume/static/js/2.9344f2d8.chunk.js.map",
+    "index.html": "/github.io/resume/index.html",
+    "precache-manifest.768ffeaf3e411aad8ac124e2b08e9f25.js": "/github.io/resume/precache-manifest.768ffeaf3e411aad8ac124e2b08e9f25.js",
+    "service-worker.js": "/github.io/resume/service-worker.js",
+    "static/css/main.26952906.chunk.css.map": "/github.io/resume/static/css/main.26952906.chunk.css.map",
+    "static/js/2.9344f2d8.chunk.js.LICENSE.txt": "/github.io/resume/static/js/2.9344f2d8.chunk.js.LICENSE.txt",
+    "static/media/resume_picture.png": "/github.io/resume/static/media/resume_picture.e150fc90.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3fc8dab3.js",
+    "static/js/2.9344f2d8.chunk.js",
+    "static/css/main.26952906.chunk.css",
+    "static/js/main.217b1966.chunk.js"
+  ]
+}
