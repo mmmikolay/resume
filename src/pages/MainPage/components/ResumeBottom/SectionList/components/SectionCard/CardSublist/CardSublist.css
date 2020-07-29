@@ -1,0 +1,26 @@
+.sublist {
+  margin-bottom: 1rem;
+  box-sizing: border-box;
+}
+
+.sublist-text {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+
+  padding: 0 0.6rem 0 0;
+  box-sizing: border-box;
+}
+
+.sublist__h3 {
+}
+
+.sublist-title {
+}
+
+.sublist-role {
+  color: var(--blue-mid);
+
+  font-size: 1rem;
+  font-style: italic;
+}

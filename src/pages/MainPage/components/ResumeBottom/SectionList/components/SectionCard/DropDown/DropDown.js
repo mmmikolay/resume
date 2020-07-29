@@ -12,6 +12,8 @@ const DropDown = ({
   descShort,
 }) => {
   const [show, setShow] = useState(false);
+
+
   const displayDescItems = () => {
     return descLong.items.map((item, i)=>{
       return <li key={i} className="dropdown-desc__li">
@@ -19,28 +21,40 @@ const DropDown = ({
       </li>;
     });
   };
+
+  const displayShortItems = () => {
+    return descShort.map((item, i)=>{
+      return <p key={i} className="dropdown-title__p">
+        {item}
+      </p>;
+    });
+  };
+
+
   return (
-    <div className="dropdown">
-      <div className="dropdown-title">
-        <p>{descShort}</p>
+    <div className="dropdown shadowy">
+      <div
+        className="dropdown-title"
+        onClick={() => setShow((state) => !state)}
+      >
+        <div className="dropdown-paragraphs">
+          {displayShortItems()}
+        </div>
         { descLong &&
-        <div
-          className="dropdown-arrow"
-          onClick={() => setShow((state) => !state)}
-        >
+        <div className="dropdown-arrow">
           {show ?
-          <BsDash/> :
-          <BsChevronCompactDown/>
+          <BsDash /> :
+          <BsChevronCompactDown />
           }
         </div>
         }
       </div>
-      {descLong && show &&
+      {descLong &&
       <div
-        className="dropdown-desc"
+        className={`dropdown-desc ${show}`}
       >
         <p>{descLong.text}</p>
-        <ul>
+        <ul className='dropdown__ul'>
           {displayDescItems()}
         </ul>
       </div>

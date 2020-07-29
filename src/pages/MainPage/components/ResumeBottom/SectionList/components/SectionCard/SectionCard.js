@@ -24,8 +24,8 @@ const SectionCard = ({
 
   return (
     <div className="card-container">
-      <h2>{title}</h2>
-      <ul>
+      <h2 className="card-container__h2">{title}</h2>
+      <ul className="card-container__ul">
         {displaySublists()}
       </ul>
     </div>
