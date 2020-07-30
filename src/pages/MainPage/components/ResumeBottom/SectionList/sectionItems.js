@@ -35,7 +35,7 @@ export const sectionItems = [
           items: [
             'Designed and created a webpage dedicated to reviews using React Hooks,',
             'Constructed a GraphQL server connecting front-end to a MongoDB instance,',
-            'Used Apollo client to establish communication with the GraphQL server,',
+            'Used Apollo Client to establish communication with the GraphQL server,',
             'Made a simple cookie-based JWT authentication system for content editing.',
           ],
         },
@@ -47,22 +47,36 @@ export const sectionItems = [
     listItems: [
       {
         title: 'React',
-        descShort: ['To the date, React is my primary view library to work with, and I think myself as having a pretty good understanding of it and it\'s  environment.'],
+        descShort: ['To the date, React is my primary UI library to work with, and I think myself as having a pretty good understanding of it and its  environment.'],
         descLong: {
           items: [
-            'Used React with Redux multiple times to implement store architectures for state management.',
-            'Utilized React Hooks in various fields including data fetching and handling side-effects.',
-            'Used React with axios in the construction of service functionalities to handle api requests.',
+            'Used React with Redux multiple times to implement store architectures for state management,',
+            'Utilized React Hooks in various fields including data fetching and handling side-effects,',
+            'Used React with axios in the construction of service functionalities to handle API requests.',
           ],
         },
       },
 
       {
+        title: 'Vue.js',
+        descShort:
+        [
+          'I have studied with Vue on the personal level, and have only a moderate knowledge of it. Still, I am most excited about this framework and am looking forward to put together some serious work with it. ',
+        ],
+      },
+
+      {
+        title: 'React Native',
+        descShort:
+        [
+          'This was the starting point of my web/mobile development journey. The framework had some issues when I slided more into the web-side, but the possibilities it provides are still amazing to me.',
+        ],
+      },
+      {
         title: 'GraphQL',
         descShort:
         [
-          'I have constructed a GraphQL server connecting a MongoDB ',
-          'database instance to the front-end as a part of my first project.',
+          'I like GraphQL for its flexible nature, and how it offers a far more simple solution than the one offered by the classic RESTful APIs. I worked with it while making my Reviews App to connect my front-end to a MongoDB instance.',
         ],
       },
     ],
