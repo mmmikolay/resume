@@ -104,6 +104,13 @@ li {
   box-shadow: 0 0.5px 1.5px 0 var(--blue-mid);
 }
 
+.uninterractible {
+  cursor: default;
+}
+.interractible {
+  cursor: pointer;
+}
+
 @media only screen and (min-width: 376px) and (max-width: 768px) {
   :root {
     --total-w: 540px;

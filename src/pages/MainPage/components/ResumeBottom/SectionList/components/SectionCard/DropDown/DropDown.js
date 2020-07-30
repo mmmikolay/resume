@@ -30,11 +30,13 @@ const DropDown = ({
     });
   };
 
-
+  const titleClasses = descLong ?
+'dropdown-title interractible' :
+'dropdown-title uninterractible';
   return (
     <div className="dropdown shadowy">
       <div
-        className="dropdown-title"
+        className={titleClasses}
         onClick={() => setShow((state) => !state)}
       >
         <div className="dropdown-paragraphs">
